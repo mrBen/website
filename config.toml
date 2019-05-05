@@ -1,0 +1,29 @@
+baseURL = "https://www.benjamin-collet.fr/"
+languageCode = "en-us"
+title = "Benjamin Collet"
+
+[params]
+    Name = "Benjamin Collet"
+    HeaderUsername = "benjamin"
+    HeaderHostname = "stephano"
+    About = "Hi, I'm Benjamin and this is my website. I am a developer, specifically in operations research."
+    ProfilePicture = "/profile.jpg"
+    GithubID = "TheMrBen"
+    LinkedInID = "benjamin-collet"
+    Email = "benjamin.collet@protonmail.ch"
+    CvURL = "https://github.com/TheMrBen/curriculum-vitae"
+
+[menu]
+    [[menu.header]]
+        identifier = "cv"
+        name = "cv"
+        weight = 0
+        url = "/cv_benjamin_collet.en.pdf"
+    [[menu.header]]
+        parent = "cv"
+        name = "english"
+        url = "/cv_benjamin_collet.en.pdf"
+    [[menu.header]]
+        parent = "cv"
+        name = "french"
+        url = "/cv_benjamin_collet.fr.pdf"
