@@ -1,5 +1,5 @@
 baseURL = "https://www.benjamin-collet.fr/"
-languageCode = "en-us"
+languageCode = "fr-fr"
 title = "Benjamin Collet"
 
 [params]
@@ -16,14 +16,18 @@ title = "Benjamin Collet"
 [menu]
     [[menu.header]]
         identifier = "cv"
-        name = "cv"
+        name = "cv.pdf"
+        weight = 1
+        url = "/cv_benjamin_collet.pdf"
+    [[menu.header]]
+        identifier = "internship"
+        name = "stages"
         weight = 0
-        url = "/cv_benjamin_collet.en.pdf"
     [[menu.header]]
-        parent = "cv"
-        name = "english"
-        url = "/cv_benjamin_collet.en.pdf"
+        parent = "internship"
+        name = "dut.pdf"
+        url = "/traducteur_protothetique-gallina.pdf"
     [[menu.header]]
-        parent = "cv"
-        name = "french"
-        url = "/cv_benjamin_collet.fr.pdf"
+        parent = "internship"
+        name = "master_1.pdf"
+        url = "/modeling_of_tree_topology_using_coq.pdf"
