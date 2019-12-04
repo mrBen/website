@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# script/deploy: Generate the website and push it to GitHub Pages.
+
+set -e
+
+hugo -t nix
+
+cd public
+git add .
+msg="rebuilding site $(date)"
+if [ -n "$*" ]; then
+	msg="$*"
+fi
+git commit -m "$msg"
+git push origin master
