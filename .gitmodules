@@ -1,6 +1,6 @@
 [submodule "public"]
 	path = public
-	url = https://github.com/TheMrBen/themrben.github.io.git
+	url = https://github.com/mrBen/mrben.github.io.git
 [submodule "themes/nix"]
 	path = themes/nix
-	url = https://github.com/TheMrBen/hugo-theme-nix.git
+	url = https://github.com/mrBen/hugo-theme-nix.git
