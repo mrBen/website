@@ -8,9 +8,9 @@ hugo -t nix
 
 cd public
 git add .
-msg="rebuilding site $(date)"
+msg="Update site to $(date) version"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
-git commit -S -m "$msg"
+git commit -m "$msg"
 git push origin master
