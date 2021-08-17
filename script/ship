@@ -4,7 +4,7 @@
 
 set -e
 
-hugo -t nix
+hugo --theme nix
 
 cd public
 git add .
@@ -12,5 +12,5 @@ msg="Update site to $(date) version"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
-git commit -m "$msg"
+git commit --message="$msg"
 git push origin main

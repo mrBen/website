@@ -11,4 +11,4 @@ cd "$(dirname "$0")/.."
 script/update
 
 # boot the app and any other necessary processes.
-hugo server -t nix
+hugo server --theme nix

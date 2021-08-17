@@ -10,4 +10,4 @@ cd "$(dirname "$0")/.."
 script/bootstrap
 
 # add empty directories that are needed by Hugo
-mkdir -p content data layouts resources/_gen/assets resources/_gen/images
+mkdir --parents content data layouts resources/_gen/assets resources/_gen/images
