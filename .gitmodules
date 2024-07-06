@@ -1,6 +1,0 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/mrBen/mrben.github.io.git
-[submodule "themes/nix"]
-	path = themes/nix
-	url = https://github.com/mrBen/hugo-theme-nix.git

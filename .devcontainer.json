@@ -1,0 +1,13 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/go",
+    "features": {
+        "ghcr.io/devcontainers/features/hugo": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "tamasfe.even-better-toml"
+            ]
+        }
+    }
+}
